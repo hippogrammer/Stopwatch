@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#clock {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    width: 50%;
+    margin: 0 auto;
+    border: 1px gray;
+    text-align: end;
+
+
+}
+.number {
+    min-width: 100px;
+    font-weight: bold;
+    font-size: 52px;
+}
+p{
+    margin-bottom: 0;
+    text-align:end;
+}
+#action_buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin: 1rem auto;
+}
